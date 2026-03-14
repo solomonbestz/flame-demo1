@@ -5,5 +5,6 @@ import 'package:flutter/material.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   Flame.device.fullScreen();
+  Flame.device.setPortrait();
   runApp(const GameApp());
 }
