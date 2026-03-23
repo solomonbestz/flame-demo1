@@ -21,8 +21,8 @@ class Player extends SpriteComponent {
 
   
 
-    if (newY >= (gameHeight / 2)) {
-      newY = -(gameHeight / 2);
+    if (newY > (gameHeight / 2) - (size.y / 2)) {
+      newY = (gameHeight / 2) - (size.y / 2);
     }
     position.y = newY;
   }
