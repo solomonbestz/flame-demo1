@@ -11,13 +11,13 @@ class GameApp extends StatefulWidget {
 }
 
 class _GameAppState extends State<GameApp> {
-  late final GoGreen game;
+  late final GoGreenGame game;
 
   @override
   void initState() {
     super.initState();
 
-    game = GoGreen();
+    game = GoGreenGame();
   }
 
   @override
