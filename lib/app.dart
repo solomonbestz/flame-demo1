@@ -1,6 +1,6 @@
 import 'package:flame/game.dart';
 import 'package:flame_docs/constants.dart';
-import 'package:flame_docs/go_green.dart';
+import 'package:flame_docs/game/go_green_game.dart';
 import 'package:flutter/material.dart';
 
 class GameApp extends StatefulWidget {
